@@ -72,7 +72,15 @@ const Navbar = () => {
         <ul className="flex  py-4 flex-col items-center ">
           <li>
             <Link
-              href={"#about"}
+              href={"/"}
+              className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white"
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              href={"/about"}
               className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white"
             >
               About
@@ -80,7 +88,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              href={"#contact"}
+              href={"/contact"}
               className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white"
             >
               Contact
@@ -88,7 +96,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              href={"#projects"}
+              href={"/projects"}
               className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white"
             >
               Projects
