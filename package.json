@@ -20,5 +20,10 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "react-router": "^6.23.1",
+    "react-router-dom": "^6.23.1",
+    "resend": "^3.2.0"
+  }
 }
