@@ -40,8 +40,26 @@ const TAB_DATA: TabData[] = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>
+          <a href="https://drive.google.com/file/d/1t2Ins2aV-BazTP9mo82UdcVibXkGZYap/view">
+            COMPLETE WEB DEVLOPEMENT BOOTCAMP{" "}
+          </a>
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/1mXs4GJdaLq0o0tdBa6IR6r7DQ7iJuyYW/view?usp=drive_link">
+            Complete ML&Data Science Bootcamp 2022
+          </a>
+        </li>
+        <li>
+          <a href="https://certificates.mooc.fi/validate/p3xf8yl1oxf">
+            ELEMENTS OF AI
+          </a>
+        </li>
+        <li>
+          <a href="https://app.100xdevs.com/certificate/verify/B9X7OQBS">
+            100xDev Cohort By Harkirat Singh
+          </a>
+        </li>
       </ul>
     ),
   },
